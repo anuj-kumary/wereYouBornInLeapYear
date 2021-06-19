@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+   min-height: 100vh;
+    margin:auto;
+    font-family: 'Montserrat', sans-serif;
+    background-image:url('undraw_happy_birthday_s72n.png');
+    background-position:right;
+    
+}
+
+#flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.container{
+    max-width: 600px;
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    padding: 2.5rem;
+}
+.heading{
+    font-size: 32px;
+    font-style: italic;
+    word-spacing: 1.5px;
+    letter-spacing: 1.5px;
+    font-weight: 900;
+}
+.para{
+    text-align: center;
+    margin-top: 1.5rem;
+    font-size: 25px;
+    font-weight: 600;
+    word-spacing: 1.5px;
+    letter-spacing: 1.5px;
+}
+.input-field{
+   margin:20px 0;
+}
+.box{
+    padding: 0.6rem;
+    width: 100%;
+    min-height: 50px;
+}
+input{
+   display: block;
+   font-size: 15px;
+   font-weight: 600;
+   text-transform: capitalize;
+   letter-spacing: 1.2px;
+   font-family: 'Montserrat', sans-serif;
+}
+#input-answer{
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: capitalize;
+    letter-spacing: 1.2px;
+    font-family: 'Montserrat', sans-serif;
+}
+button{
+    display: block;
+    margin: 1rem auto;
+    padding: 0.5rem 1rem;
+    border: 4px solid lightblue;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+}
+.hide-container{
+    display: none;
+}
+::placeholder{
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+}
